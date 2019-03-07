@@ -1,0 +1,33 @@
+{
+   "intents": [
+      {
+         "name": "categoria_user",
+         "samples": [
+            "{vorrei fare esercizi e sono un {categoria}|vorrei fare esercizi e sono un utente {categoria}| voglio fare esercizi e sono un utente {categoria}| voglio fare esercizi e sono un {categoria}| sono un {categoria}| sono un utente{categoria}| }"
+         ],
+         "slots": [
+            {
+               "name": "categoria",
+               "type": "AMAZON.SearchQuery",
+               "samples": []
+            }
+         ]
+      },
+      {
+         "name": "AMAZON.HelpIntent",
+         "samples": [
+            "Aiuto ",
+            "non so cosa fare ",
+            "cosa posso fare ",
+            " "
+         ]
+      }
+   ],
+   "types": []
+}
+categoria_user {vorrei fare esercizi e sono un {categoria}|vorrei fare esercizi e sono un utente {categoria}| voglio fare esercizi e sono un utente {categoria}| voglio fare esercizi e sono un {categoria}| sono un {categoria}| sono un utente{categoria}| }
+AMAZON.HelpIntent Aiuto
+AMAZON.HelpIntent non so cosa fare
+AMAZON.HelpIntent cosa posso fare
+AMAZON.HelpIntent 
+

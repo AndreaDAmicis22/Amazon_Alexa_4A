@@ -1,0 +1,23 @@
+{
+  "name": "Amazon_Alexa_4A",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreaDAmicis22/Amazon_Alexa_4A.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreaDAmicis22/Amazon_Alexa_4A/issues"
+  },
+  "homepage": "https://github.com/AndreaDAmicis22/Amazon_Alexa_4A#readme",
+  "dependencies": {
+    "alexa-app": "^4.2.3"
+  }
+}
